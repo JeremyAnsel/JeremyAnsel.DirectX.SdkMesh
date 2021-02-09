@@ -13,12 +13,372 @@
       "is_incremental": false
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.SdkMesh.D3DDeclMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.D3DDeclMethod.html",
+          "hash": "DW5Zqjwq573sR30ApEawRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.SdkMesh.D3DDeclType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.D3DDeclType.html",
+          "hash": "kXTmYKmGHw1MNybs0sFsBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.SdkMesh.D3DDeclUsage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.D3DDeclUsage.html",
+          "hash": "CTFfHmthcQNy/neWo3Niiw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.SdkMesh.D3DVertexElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.D3DVertexElement.html",
+          "hash": "nNCd6C8HdjjYsu5WlzM8qw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshAnimationFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshAnimationFrame.html",
+          "hash": "ZOPaDcj6Txp+F0he3L0TDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshAnimationKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshAnimationKey.html",
+          "hash": "vZQxgyCLdhBzKAHq+a1uzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html",
+          "hash": "fiE/STASFhySIr2Z54jOOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFrame.html",
+          "hash": "0OFPFTmBJq96dfmaMskWoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFrameTransformType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFrameTransformType.html",
+          "hash": "j99d2ewI+3XSNxLxIhsF6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshIndexBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshIndexBuffer.html",
+          "hash": "nvNy0myE6SiHu8gOeJLc2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshIndexType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshIndexType.html",
+          "hash": "Llb6Q/5yR+VbSgt5S3ohdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshMaterial.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshMaterial.html",
+          "hash": "4N3TNjIBSKNN3Bl6df3OAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshMesh.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshMesh.html",
+          "hash": "kIqueaHUt/9PjA40NxvHKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshPrimitiveType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshPrimitiveType.html",
+          "hash": "NMkPKHJVQfu4aIZcgc8MLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimData.html",
+          "hash": "vqdVeICqPXkwGzSbJWD55Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFile.html",
+          "hash": "/2M3mQ/jxcNmtNC3P8sKbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFrameData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFrameData.html",
+          "hash": "lEgMkdX2jzX5PFhh5wwpJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimHeader.html",
+          "hash": "09l/YnnKpGkJN+hKzcjc0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFile.html",
+          "hash": "Vge7vfQ/7y3DKS9N1Beaaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFrame.html",
+          "hash": "zaoKMnO8tE8V1+iMW247wg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawHeader.html",
+          "hash": "6ReRRXDVv4PoS7MT8uAevQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawIndexBufferHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawIndexBufferHeader.html",
+          "hash": "+LrmLhLvGO2Nw654UX+u3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawMaterial.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawMaterial.html",
+          "hash": "abPrcFlupWmZ8/2dq53oMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawMesh.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawMesh.html",
+          "hash": "HlcUc3ZeLGCKtPUp5mmutw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawSubset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawSubset.html",
+          "hash": "oJFj/M+FlG7Rw4j/KF3K0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawVertexBufferHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawVertexBufferHeader.html",
+          "hash": "mk1zC1Uwl+LcmiPC0RKnYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshSubset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshSubset.html",
+          "hash": "BbRwq2swB6d6EGmt4kiKVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshVertexBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshVertexBuffer.html",
+          "hash": "4IIV2VtSJTbPKGPrepyB2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/JeremyAnsel.DirectX.SdkMesh.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.html",
+          "hash": "NecrCPk6MMfKN3Mb4Hmg6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "IcoHRSvsjU3E87zfCUHf4Q=="
+          "hash": "hZTRyOIM/hflRTusuWr7uQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "R+ZHV4CoQt972BDWNdYHjw=="
         }
       },
       "is_incremental": false,
@@ -30,7 +390,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "Ctj6GXLlYDl7bzvsYJeIIw=="
+          "hash": "0wrY6QX7DHQ+umqfGpE4IA=="
         }
       },
       "is_incremental": false,
@@ -42,7 +402,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "IJNeX9acHoJ4AJvVDnJwUA=="
+          "hash": "4nxdgndDfTqkLY/sLSt4uQ=="
         }
       },
       "is_incremental": false,
@@ -60,17 +420,23 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 29,
+          "skipped_file_count": 0
+        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
-          "skipped_file_count": 0
-        },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 2,
           "skipped_file_count": 0
         }
       }
