@@ -2,6 +2,7 @@
 using JeremyAnsel.DirectX.DXMath;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
 using System.Text;
 
@@ -12,8 +13,7 @@ namespace JeremyAnsel.DirectX.SdkMesh
         internal SdkMeshMesh(D3D11Device device, SdkMeshRawFile rawFile, SdkMeshRawMesh rawMesh)
         {
             this.Name = rawMesh.Name;
-            this.BoundingBoxCenter = rawMesh.BoundingBoxCenter;
-            this.BoundingBoxExtents = rawMesh.BoundingBoxExtents;
+            this.ComputeBoundingBox(rawFile, rawMesh);
 
             this.VertexBuffers = new SdkMeshVertexBuffer[rawMesh.NumVertexBuffers];
 
@@ -66,6 +66,71 @@ namespace JeremyAnsel.DirectX.SdkMesh
 
             this.IndexBuffer?.Release();
             this.IndexBuffer = null;
+        }
+
+        private void ComputeBoundingBox(SdkMeshRawFile rawFile, SdkMeshRawMesh rawMesh)
+        {
+            //this.BoundingBoxCenter = rawMesh.BoundingBoxCenter;
+            //this.BoundingBoxExtents = rawMesh.BoundingBoxExtents;
+
+            XMVector lower = XMVector.Replicate(float.MaxValue);
+            XMVector upper = XMVector.Replicate(float.MinValue);
+
+            int indsize;
+            if (rawFile.IndexBufferHeaders[rawMesh.IndexBuffer].IndexType == SdkMeshIndexType.IndexType32Bit)
+            {
+                indsize = 4;
+            }
+            else
+            {
+                indsize = 2;
+            }
+
+            for (int subset = 0; subset < rawMesh.NumSubsets; subset++)
+            {
+                SdkMeshRawSubset pSubset = rawFile.Subsets[rawMesh.SubsetsIndices[subset]];
+
+                SdkMeshPrimitiveType primType = pSubset.PrimitiveType;
+                Debug.Assert(primType == SdkMeshPrimitiveType.TriangleList, "Only triangle lists are handled.");
+
+                if (primType != SdkMeshPrimitiveType.TriangleList)
+                {
+                    continue;
+                }
+
+                int indexCount = (int)pSubset.IndexCount;
+                int indexStart = (int)pSubset.IndexStart;
+                byte[] ind = rawFile.IndexBufferBytes[rawMesh.IndexBuffer];
+                byte[] verts = rawFile.VertexBufferBytes[rawMesh.VertexBuffers[0]];
+                int stride = (int)rawFile.VertexBufferHeaders[rawMesh.VertexBuffers[0]].StrideBytes;
+
+                for (int vertind = indexStart; vertind < indexStart + indexCount; vertind++)
+                {
+                    int current_ind;
+
+                    if (indsize == 2)
+                    {
+                        current_ind = BitConverter.ToInt16(ind, vertind * 2);
+                    }
+                    else
+                    {
+                        current_ind = BitConverter.ToInt32(ind, vertind * 4);
+                    }
+
+                    float x = BitConverter.ToSingle(verts, stride * current_ind);
+                    float y = BitConverter.ToSingle(verts, stride * current_ind + 4);
+                    float z = BitConverter.ToSingle(verts, stride * current_ind + 8);
+
+                    lower = XMVector.Min(new XMVector(x, y, z, 1.0f), lower);
+                    upper = XMVector.Max(new XMVector(x, y, z, 1.0f), upper);
+                }
+            }
+
+            XMVector half = upper - lower;
+            half *= 0.5f;
+
+            this.BoundingBoxCenter = lower + half;
+            this.BoundingBoxExtents = half;
         }
     }
 }
