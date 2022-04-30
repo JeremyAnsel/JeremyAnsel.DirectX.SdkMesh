@@ -530,11 +530,11 @@ references:
   isSpec: "True"
   fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.Frames
   nameWithType: SdkMeshFile.Frames
-- uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FromFile(D3D11Device,D3D11DeviceContext,System.String)
+- uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FromFile(JeremyAnsel.DirectX.D3D11.D3D11Device,JeremyAnsel.DirectX.D3D11.D3D11DeviceContext,System.String)
   name: FromFile(D3D11Device, D3D11DeviceContext, String)
-  href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshFile_FromFile_D3D11Device_D3D11DeviceContext_System_String_
-  commentId: M:JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FromFile(D3D11Device,D3D11DeviceContext,System.String)
-  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FromFile(D3D11Device, D3D11DeviceContext, System.String)
+  href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshFile_FromFile_JeremyAnsel_DirectX_D3D11_D3D11Device_JeremyAnsel_DirectX_D3D11_D3D11DeviceContext_System_String_
+  commentId: M:JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FromFile(JeremyAnsel.DirectX.D3D11.D3D11Device,JeremyAnsel.DirectX.D3D11.D3D11DeviceContext,System.String)
+  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FromFile(JeremyAnsel.DirectX.D3D11.D3D11Device, JeremyAnsel.DirectX.D3D11.D3D11DeviceContext, System.String)
   nameWithType: SdkMeshFile.FromFile(D3D11Device, D3D11DeviceContext, String)
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FromFile*
   name: FromFile
@@ -663,11 +663,11 @@ references:
   isSpec: "True"
   fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.Render
   nameWithType: SdkMeshFile.Render
-- uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.TransformBindPose(XMMatrix)
+- uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.TransformBindPose(JeremyAnsel.DirectX.DXMath.XMMatrix)
   name: TransformBindPose(XMMatrix)
-  href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshFile_TransformBindPose_XMMatrix_
-  commentId: M:JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.TransformBindPose(XMMatrix)
-  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.TransformBindPose(XMMatrix)
+  href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshFile_TransformBindPose_JeremyAnsel_DirectX_DXMath_XMMatrix_
+  commentId: M:JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.TransformBindPose(JeremyAnsel.DirectX.DXMath.XMMatrix)
+  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.TransformBindPose(JeremyAnsel.DirectX.DXMath.XMMatrix)
   nameWithType: SdkMeshFile.TransformBindPose(XMMatrix)
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.TransformBindPose*
   name: TransformBindPose
@@ -676,11 +676,11 @@ references:
   isSpec: "True"
   fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.TransformBindPose
   nameWithType: SdkMeshFile.TransformBindPose
-- uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.TransformMesh(XMMatrix,System.Double)
+- uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.TransformMesh(JeremyAnsel.DirectX.DXMath.XMMatrix,System.Double)
   name: TransformMesh(XMMatrix, Double)
-  href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshFile_TransformMesh_XMMatrix_System_Double_
-  commentId: M:JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.TransformMesh(XMMatrix,System.Double)
-  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.TransformMesh(XMMatrix, System.Double)
+  href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshFile_TransformMesh_JeremyAnsel_DirectX_DXMath_XMMatrix_System_Double_
+  commentId: M:JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.TransformMesh(JeremyAnsel.DirectX.DXMath.XMMatrix,System.Double)
+  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.TransformMesh(JeremyAnsel.DirectX.DXMath.XMMatrix, System.Double)
   nameWithType: SdkMeshFile.TransformMesh(XMMatrix, Double)
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.TransformMesh*
   name: TransformMesh
