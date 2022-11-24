@@ -20,7 +20,7 @@ namespace JeremyAnsel.DirectX.SdkMesh
             this.StrideBytes = (uint)header.StrideBytes;
             this.Decl = header.Decl.ToArray();
 
-            var desc = new D3D11BufferDesc((uint)header.SizeBytes, D3D11BindOptions.VertexBuffer);
+            var desc = new D3D11BufferDesc((uint)header.SizeBytes, D3D11BindOptions.VertexBuffer | D3D11BindOptions.ShaderResource);
             var data = new D3D11SubResourceData(bytes, 0, 0);
             this.Buffer = device.CreateBuffer(desc, data);
         }

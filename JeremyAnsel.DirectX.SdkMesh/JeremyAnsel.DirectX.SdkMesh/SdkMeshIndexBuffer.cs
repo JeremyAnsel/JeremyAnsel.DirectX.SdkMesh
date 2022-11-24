@@ -32,7 +32,7 @@ namespace JeremyAnsel.DirectX.SdkMesh
                     break;
             }
 
-            var desc = new D3D11BufferDesc((uint)header.SizeBytes, D3D11BindOptions.IndexBuffer);
+            var desc = new D3D11BufferDesc((uint)header.SizeBytes, D3D11BindOptions.IndexBuffer | D3D11BindOptions.ShaderResource);
             var data = new D3D11SubResourceData(bytes, 0, 0);
             this.Buffer = device.CreateBuffer(desc, data);
         }
