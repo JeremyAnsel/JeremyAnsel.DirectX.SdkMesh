@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.D3DDeclMethod.html",
-          "hash": "hGd30HdslnoIacWQhQXzRyOwPDHY/kAm/sQvf3rWa88="
+          "hash": "j9uIzggkKmmi4/QQ8g0SIxLX9X6ul+bfB2cEtPGkAUA="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.D3DDeclType.html",
-          "hash": "ryZrr1y80prz2iCL6fGnYfrf4plUwCIMz5jsTjGyMbs="
+          "hash": "q8vUHW0kJg0rbmEcTASR/nz/IXLF6db+1De+DLDVxlY="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.D3DDeclUsage.html",
-          "hash": "yyHVuyGmZzEG3VpvAfR2N0tNCh8U8StiJUJarCiBLP0="
+          "hash": "NwPeRkOgNZceFXnd6WHtFp14a0nxlrBQKPeaEuq8/HE="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.D3DVertexElement.html",
-          "hash": "dbzI0goV3jhaMJVCZv3gNBDjk2WNxTE4uOAKvokHfTY="
+          "hash": "MsIezq0F3Q1vgLVNrgHDR84/hvM2HAGDRtKmzlDNg78="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshAnimationFrame.html",
-          "hash": "kmVdjd4msv/Yv1gLop2zXHSrDUCbXqk5tDM9fLcekjk="
+          "hash": "BZcfvogdYfKKeEGV3YFK3fZTXh7rsGv9qNSCtf5MLnA="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshAnimationKey.html",
-          "hash": "nO+Qc/L1Lu3Cgu6TKxb0qLtNWN8fFJ+eacSnzanWrqE="
+          "hash": "HE4YFlixvfGaDQKUnfjLZOiSaZ0lZixist3bPPmwsH8="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html",
-          "hash": "X0owzQYC3vEvOsyno2GXUVqDWqC4H6Q7SH6rTJWxceU="
+          "hash": "2xWZyVhGbgxIgP0Yml5PUqkrDvcdNdidLLU77ZgQQ+o="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFrame.html",
-          "hash": "/0TBjCPDrju0F2SvMvl/1NJ+19SAEhqzXYRfsVSRpok="
+          "hash": "z3/G4XxDn7PD55Od5U0/qIr/HdLAAQ2/vjok9PC/JbQ="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFrameTransformType.html",
-          "hash": "ACiS5MHY+x8d2AjujQcuoIqDHXUdhAE7jdfxPDkTriQ="
+          "hash": "kwa5PaVvbiFUsUFvD5FrqYjE98On49G+N8FAFw09RxI="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshIndexBuffer.html",
-          "hash": "V/dXcjZtKO84VKkecEr2HFFzHI2zMNSB6i4mfRRqB14="
+          "hash": "6BWOuPtAAe1/q8sEIKd2S2k3D96/u0uenFx5d6OCx8w="
         }
       },
       "is_incremental": false,
@@ -138,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshIndexType.html",
-          "hash": "tQgmr+MPlQ9nY2I4eSVOy4ZzbvuSLV7C5VQe/ZTmW7Q="
+          "hash": "6i6BdVRdYjhZmz/zOnssYuO0sHifBU2HYfXesE1fhkY="
         }
       },
       "is_incremental": false,
@@ -150,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshMaterial.html",
-          "hash": "Hq8ZYjP4d4NI+RRuoa+fXdSaIFXN5SOuXWK9dG+rQUE="
+          "hash": "0aD5spjOYVHLPMcdGAk4wCvEiWOKpWEW2HHKu/3nHr8="
         }
       },
       "is_incremental": false,
@@ -162,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshMesh.html",
-          "hash": "oGcIwNNOnkxdoOvhpMEFHQAtfrhUXPL1geSSWyUp6/E="
+          "hash": "14F2Z5lWd5Ke+9B5/KedgGoT6ZI7j5cHCR2CnoEgK1s="
         }
       },
       "is_incremental": false,
@@ -174,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshPrimitiveType.html",
-          "hash": "TkzYxriSN/CBLe43gcTAcN9brGIfgHs7Na+mxPADOCg="
+          "hash": "AqPkc82UYIzwO0doRgsm+WlOEmKB9KFSfLq1cptxC2c="
         }
       },
       "is_incremental": false,
@@ -186,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimData.html",
-          "hash": "+u73FGyPT8iOsHjhGtfsCXL0jEc1Ecxzgb+fuasgYLM="
+          "hash": "MGgW6HRfA4ZU7UEyJgW1YOokBS8GW02wN19PHcsG3qU="
         }
       },
       "is_incremental": false,
@@ -198,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFile.html",
-          "hash": "ynANMZzC5JhtUyiTJKhZ02gmEe4cZ0d5TWUxJ4umFWs="
+          "hash": "FvHbezn6L7ksOY8b4cJiUdP66AHpGk9U1T8lGAERJzM="
         }
       },
       "is_incremental": false,
@@ -210,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFrameData.html",
-          "hash": "QPUVCWpL42y2BM6wO7WRZ/Vu1/6JUWt79ki93T+p9kI="
+          "hash": "9FU/VznQxKS6CS99sbpBf0AffzDw2Sp0r5DfKsrmNuk="
         }
       },
       "is_incremental": false,
@@ -222,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimHeader.html",
-          "hash": "FLHpBOLHP1LKH9TSpH3A+14Nj7KVWbKFNRsDaE09ElE="
+          "hash": "daGW4UzUtVYG8DSNu17tVtd2tIG/tyd5kwMBVVCV6j4="
         }
       },
       "is_incremental": false,
@@ -234,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFile.html",
-          "hash": "tp2kW10hS7WAoN1srS0NSUYefXDYUN18ORsBhRspeWg="
+          "hash": "/iZJUDUVDmJAUq++FtTBPWOSkO09773KBf6sBn+T6xY="
         }
       },
       "is_incremental": false,
@@ -246,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFrame.html",
-          "hash": "i+gyERePmpwC5lyCZ4X6kAsRJGmA/dvpFS0tDI8XJSI="
+          "hash": "eYHRfO25a9KfAYte7MbqtSGFtCQfuxuDihhuyWwe1yI="
         }
       },
       "is_incremental": false,
@@ -258,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawHeader.html",
-          "hash": "LyQSSR0sSbFWiIJGaEdbHuiq/zhinWZdeOlm++X1HF0="
+          "hash": "0D7AHygi4SKaiUugnWcXpKyMUv98FZ2wD9bn1D4DdBo="
         }
       },
       "is_incremental": false,
@@ -270,7 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawIndexBufferHeader.html",
-          "hash": "6zkxksVHRBS8XjikAGWz9Sb8mbz9CY9sNpS6tvmcXRA="
+          "hash": "naT4ZEqmYewOKfkbcGL1iyDjcj71N7dPNzfFWVkDxkc="
         }
       },
       "is_incremental": false,
@@ -282,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawMaterial.html",
-          "hash": "IO93HqLK7zFVq9MFX55GoPQAbN9W7SCL3Uczs3WcfdU="
+          "hash": "9sWS7KBnRvwqTL9k/0wE6LTHKFBUDk/DttucRH+Rssw="
         }
       },
       "is_incremental": false,
@@ -294,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawMesh.html",
-          "hash": "rCKkz2QHhW7TuuI0vtMTanEEZi/KY/14LAY8hPS5M+8="
+          "hash": "0aO4fLaJGuRS61D9sYvldsoWig3Mxdvwpdr7+uzfDq4="
         }
       },
       "is_incremental": false,
@@ -306,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawSubset.html",
-          "hash": "DlUiZFLK+4I+LPehBVgqhkVKZeXo36Oeuea6h4I3xKk="
+          "hash": "wd3IviYQJmLRtVL6bbnNayI3PA+xPiz2oZeZOWUeyzU="
         }
       },
       "is_incremental": false,
@@ -318,7 +318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawVertexBufferHeader.html",
-          "hash": "Yx27dqcdU+xtu0bwQdxvQeSYNfzO1oXOh/4w06buP/M="
+          "hash": "/tZaylNMS0Y7q8zwSafKVn8oXZLNRcp5xbPNMhKoVYo="
         }
       },
       "is_incremental": false,
@@ -330,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshSubset.html",
-          "hash": "A9+4774ymhisCbkP1NpMayEg28ax4uFznIU0HYwBXNo="
+          "hash": "bmJWQWTMI1PK4+D3VhK2UL+L1DvEuuxOcsGlk+xOPpE="
         }
       },
       "is_incremental": false,
@@ -342,7 +342,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshVertexBuffer.html",
-          "hash": "00Op3auJnevcgz+dQPnaPBxSrEAJo00HIMltE3PCWJM="
+          "hash": "dUTnPT6zT3g8r2st51AzDzkKrtO61hWWY8PXFP/Cfuk="
         }
       },
       "is_incremental": false,
@@ -354,7 +354,7 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.html",
-          "hash": "v7SsmsAMK11KuNjudewgIwo3d3p0rfbIQhX3iA/zlRU="
+          "hash": "b9DIlby7gIsNm+cntRhVwD0BVYn2XRuZjRUSPTnt1Aw="
         }
       },
       "is_incremental": false,
@@ -366,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "8bX1xPUNpEQGTLiaGcMZUTMzEf4DcqO307cZeSdk7Rs="
+          "hash": "KrAA4VoxZmL8+lyips7GRXEioREl5WRUq2sbhFmdy0M="
         }
       },
       "is_incremental": false,
@@ -378,7 +378,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "8TxRVL4CKWeL3kgf6v5LTYMUMPJ7awFrW3JMsO0AfnY="
+          "hash": "XRPa1pLAvVgPMYT/gIAEjbLMR/xVV7iliongOY8Aw/c="
         }
       },
       "is_incremental": false,
