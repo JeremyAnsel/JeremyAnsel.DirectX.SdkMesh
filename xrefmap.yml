@@ -505,11 +505,14 @@ references:
   fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FilePath
   nameWithType: SdkMeshFile.FilePath
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FindFrame(System.String)
-  name: FindFrame(String)
+  name: FindFrame(string)
   href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshFile_FindFrame_System_String_
   commentId: M:JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FindFrame(System.String)
-  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FindFrame(System.String)
-  nameWithType: SdkMeshFile.FindFrame(String)
+  name.vb: FindFrame(String)
+  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FindFrame(string)
+  fullName.vb: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FindFrame(String)
+  nameWithType: SdkMeshFile.FindFrame(string)
+  nameWithType.vb: SdkMeshFile.FindFrame(String)
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FindFrame*
   name: FindFrame
   href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshFile_FindFrame_
@@ -531,11 +534,14 @@ references:
   fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.Frames
   nameWithType: SdkMeshFile.Frames
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FromFile(JeremyAnsel.DirectX.D3D11.D3D11Device,JeremyAnsel.DirectX.D3D11.D3D11DeviceContext,System.String)
-  name: FromFile(D3D11Device, D3D11DeviceContext, String)
+  name: FromFile(D3D11Device, D3D11DeviceContext, string)
   href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshFile_FromFile_JeremyAnsel_DirectX_D3D11_D3D11Device_JeremyAnsel_DirectX_D3D11_D3D11DeviceContext_System_String_
   commentId: M:JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FromFile(JeremyAnsel.DirectX.D3D11.D3D11Device,JeremyAnsel.DirectX.D3D11.D3D11DeviceContext,System.String)
-  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FromFile(JeremyAnsel.DirectX.D3D11.D3D11Device, JeremyAnsel.DirectX.D3D11.D3D11DeviceContext, System.String)
-  nameWithType: SdkMeshFile.FromFile(D3D11Device, D3D11DeviceContext, String)
+  name.vb: FromFile(D3D11Device, D3D11DeviceContext, String)
+  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FromFile(JeremyAnsel.DirectX.D3D11.D3D11Device, JeremyAnsel.DirectX.D3D11.D3D11DeviceContext, string)
+  fullName.vb: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FromFile(JeremyAnsel.DirectX.D3D11.D3D11Device, JeremyAnsel.DirectX.D3D11.D3D11DeviceContext, String)
+  nameWithType: SdkMeshFile.FromFile(D3D11Device, D3D11DeviceContext, string)
+  nameWithType.vb: SdkMeshFile.FromFile(D3D11Device, D3D11DeviceContext, String)
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FromFile*
   name: FromFile
   href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshFile_FromFile_
@@ -544,11 +550,14 @@ references:
   fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FromFile
   nameWithType: SdkMeshFile.FromFile
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetAnimationKeyFromTime(System.Double)
-  name: GetAnimationKeyFromTime(Double)
+  name: GetAnimationKeyFromTime(double)
   href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshFile_GetAnimationKeyFromTime_System_Double_
   commentId: M:JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetAnimationKeyFromTime(System.Double)
-  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetAnimationKeyFromTime(System.Double)
-  nameWithType: SdkMeshFile.GetAnimationKeyFromTime(Double)
+  name.vb: GetAnimationKeyFromTime(Double)
+  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetAnimationKeyFromTime(double)
+  fullName.vb: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetAnimationKeyFromTime(Double)
+  nameWithType: SdkMeshFile.GetAnimationKeyFromTime(double)
+  nameWithType.vb: SdkMeshFile.GetAnimationKeyFromTime(Double)
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetAnimationKeyFromTime*
   name: GetAnimationKeyFromTime
   href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshFile_GetAnimationKeyFromTime_
@@ -557,14 +566,14 @@ references:
   fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetAnimationKeyFromTime
   nameWithType: SdkMeshFile.GetAnimationKeyFromTime
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetAnimationProperties(System.Int32@,System.Single@)
-  name: GetAnimationProperties(out Int32, out Single)
+  name: GetAnimationProperties(out int, out float)
   href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshFile_GetAnimationProperties_System_Int32__System_Single__
   commentId: M:JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetAnimationProperties(System.Int32@,System.Single@)
-  name.vb: GetAnimationProperties(ByRef Int32, ByRef Single)
-  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetAnimationProperties(out System.Int32, out System.Single)
-  fullName.vb: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetAnimationProperties(ByRef System.Int32, ByRef System.Single)
-  nameWithType: SdkMeshFile.GetAnimationProperties(out Int32, out Single)
-  nameWithType.vb: SdkMeshFile.GetAnimationProperties(ByRef Int32, ByRef Single)
+  name.vb: GetAnimationProperties(Integer, Single)
+  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetAnimationProperties(out int, out float)
+  fullName.vb: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetAnimationProperties(Integer, Single)
+  nameWithType: SdkMeshFile.GetAnimationProperties(out int, out float)
+  nameWithType.vb: SdkMeshFile.GetAnimationProperties(Integer, Single)
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetAnimationProperties*
   name: GetAnimationProperties
   href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshFile_GetAnimationProperties_
@@ -573,11 +582,14 @@ references:
   fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetAnimationProperties
   nameWithType: SdkMeshFile.GetAnimationProperties
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetInfluenceMatrix(System.Int32)
-  name: GetInfluenceMatrix(Int32)
+  name: GetInfluenceMatrix(int)
   href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshFile_GetInfluenceMatrix_System_Int32_
   commentId: M:JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetInfluenceMatrix(System.Int32)
-  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetInfluenceMatrix(System.Int32)
-  nameWithType: SdkMeshFile.GetInfluenceMatrix(Int32)
+  name.vb: GetInfluenceMatrix(Integer)
+  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetInfluenceMatrix(int)
+  fullName.vb: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetInfluenceMatrix(Integer)
+  nameWithType: SdkMeshFile.GetInfluenceMatrix(int)
+  nameWithType.vb: SdkMeshFile.GetInfluenceMatrix(Integer)
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetInfluenceMatrix*
   name: GetInfluenceMatrix
   href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshFile_GetInfluenceMatrix_
@@ -586,11 +598,14 @@ references:
   fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetInfluenceMatrix
   nameWithType: SdkMeshFile.GetInfluenceMatrix
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetMeshInfluenceMatrix(System.Int32,System.Int32)
-  name: GetMeshInfluenceMatrix(Int32, Int32)
+  name: GetMeshInfluenceMatrix(int, int)
   href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshFile_GetMeshInfluenceMatrix_System_Int32_System_Int32_
   commentId: M:JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetMeshInfluenceMatrix(System.Int32,System.Int32)
-  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetMeshInfluenceMatrix(System.Int32, System.Int32)
-  nameWithType: SdkMeshFile.GetMeshInfluenceMatrix(Int32, Int32)
+  name.vb: GetMeshInfluenceMatrix(Integer, Integer)
+  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetMeshInfluenceMatrix(int, int)
+  fullName.vb: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetMeshInfluenceMatrix(Integer, Integer)
+  nameWithType: SdkMeshFile.GetMeshInfluenceMatrix(int, int)
+  nameWithType.vb: SdkMeshFile.GetMeshInfluenceMatrix(Integer, Integer)
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetMeshInfluenceMatrix*
   name: GetMeshInfluenceMatrix
   href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshFile_GetMeshInfluenceMatrix_
@@ -599,11 +614,14 @@ references:
   fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetMeshInfluenceMatrix
   nameWithType: SdkMeshFile.GetMeshInfluenceMatrix
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetWorldMatrix(System.Int32)
-  name: GetWorldMatrix(Int32)
+  name: GetWorldMatrix(int)
   href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshFile_GetWorldMatrix_System_Int32_
   commentId: M:JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetWorldMatrix(System.Int32)
-  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetWorldMatrix(System.Int32)
-  nameWithType: SdkMeshFile.GetWorldMatrix(Int32)
+  name.vb: GetWorldMatrix(Integer)
+  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetWorldMatrix(int)
+  fullName.vb: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetWorldMatrix(Integer)
+  nameWithType: SdkMeshFile.GetWorldMatrix(int)
+  nameWithType.vb: SdkMeshFile.GetWorldMatrix(Integer)
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.GetWorldMatrix*
   name: GetWorldMatrix
   href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshFile_GetWorldMatrix_
@@ -651,11 +669,14 @@ references:
   fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.Release
   nameWithType: SdkMeshFile.Release
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.Render(System.Int32,System.Int32,System.Int32)
-  name: Render(Int32, Int32, Int32)
+  name: Render(int, int, int)
   href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshFile_Render_System_Int32_System_Int32_System_Int32_
   commentId: M:JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.Render(System.Int32,System.Int32,System.Int32)
-  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.Render(System.Int32, System.Int32, System.Int32)
-  nameWithType: SdkMeshFile.Render(Int32, Int32, Int32)
+  name.vb: Render(Integer, Integer, Integer)
+  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.Render(int, int, int)
+  fullName.vb: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.Render(Integer, Integer, Integer)
+  nameWithType: SdkMeshFile.Render(int, int, int)
+  nameWithType.vb: SdkMeshFile.Render(Integer, Integer, Integer)
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.Render*
   name: Render
   href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshFile_Render_
@@ -677,11 +698,14 @@ references:
   fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.TransformBindPose
   nameWithType: SdkMeshFile.TransformBindPose
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.TransformMesh(JeremyAnsel.DirectX.DXMath.XMMatrix,System.Double)
-  name: TransformMesh(XMMatrix, Double)
+  name: TransformMesh(XMMatrix, double)
   href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshFile_TransformMesh_JeremyAnsel_DirectX_DXMath_XMMatrix_System_Double_
   commentId: M:JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.TransformMesh(JeremyAnsel.DirectX.DXMath.XMMatrix,System.Double)
-  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.TransformMesh(JeremyAnsel.DirectX.DXMath.XMMatrix, System.Double)
-  nameWithType: SdkMeshFile.TransformMesh(XMMatrix, Double)
+  name.vb: TransformMesh(XMMatrix, Double)
+  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.TransformMesh(JeremyAnsel.DirectX.DXMath.XMMatrix, double)
+  fullName.vb: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.TransformMesh(JeremyAnsel.DirectX.DXMath.XMMatrix, Double)
+  nameWithType: SdkMeshFile.TransformMesh(XMMatrix, double)
+  nameWithType.vb: SdkMeshFile.TransformMesh(XMMatrix, Double)
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.TransformMesh*
   name: TransformMesh
   href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshFile_TransformMesh_
@@ -1289,11 +1313,14 @@ references:
   fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFile.AnimationFrames
   nameWithType: SdkMeshRawAnimFile.AnimationFrames
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFile.FromFile(System.String)
-  name: FromFile(String)
+  name: FromFile(string)
   href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshRawAnimFile_FromFile_System_String_
   commentId: M:JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFile.FromFile(System.String)
-  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFile.FromFile(System.String)
-  nameWithType: SdkMeshRawAnimFile.FromFile(String)
+  name.vb: FromFile(String)
+  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFile.FromFile(string)
+  fullName.vb: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFile.FromFile(String)
+  nameWithType: SdkMeshRawAnimFile.FromFile(string)
+  nameWithType.vb: SdkMeshRawAnimFile.FromFile(String)
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFile.FromFile*
   name: FromFile
   href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshRawAnimFile_FromFile_
@@ -1502,11 +1529,14 @@ references:
   fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFile.Frames
   nameWithType: SdkMeshRawFile.Frames
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFile.FromFile(System.String)
-  name: FromFile(String)
+  name: FromFile(string)
   href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshRawFile_FromFile_System_String_
   commentId: M:JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFile.FromFile(System.String)
-  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFile.FromFile(System.String)
-  nameWithType: SdkMeshRawFile.FromFile(String)
+  name.vb: FromFile(String)
+  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFile.FromFile(string)
+  fullName.vb: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFile.FromFile(String)
+  nameWithType: SdkMeshRawFile.FromFile(string)
+  nameWithType.vb: SdkMeshRawFile.FromFile(String)
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFile.FromFile*
   name: FromFile
   href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshRawFile_FromFile_

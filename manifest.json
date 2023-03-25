@@ -9,8 +9,7 @@
         "resource": {
           "relative_path": "index.json"
         }
-      },
-      "is_incremental": false
+      }
     },
     {
       "type": "ManagedReference",
@@ -18,10 +17,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.D3DDeclMethod.html",
-          "hash": "j9uIzggkKmmi4/QQ8g0SIxLX9X6ul+bfB2cEtPGkAUA="
+          "hash": "MKoVwln2WsCE5glrqHKdLloeCQ0+vqDKnorI4geJ2ts="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -30,10 +28,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.D3DDeclType.html",
-          "hash": "q8vUHW0kJg0rbmEcTASR/nz/IXLF6db+1De+DLDVxlY="
+          "hash": "w7nqwZ0oJeGfRrseP2KpkEsH4+9PtrBr6lApS9+AVeg="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -42,10 +39,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.D3DDeclUsage.html",
-          "hash": "NwPeRkOgNZceFXnd6WHtFp14a0nxlrBQKPeaEuq8/HE="
+          "hash": "gwZUmEiQ4D0jYuTzhxGcQ9yGkJgBWpEcCgyxHE8pI64="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -54,10 +50,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.D3DVertexElement.html",
-          "hash": "MsIezq0F3Q1vgLVNrgHDR84/hvM2HAGDRtKmzlDNg78="
+          "hash": "dRf2OWpb38rMIwnsVqtRq75b++s+7EeXtLg5chkmkHk="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -66,10 +61,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshAnimationFrame.html",
-          "hash": "BZcfvogdYfKKeEGV3YFK3fZTXh7rsGv9qNSCtf5MLnA="
+          "hash": "s1s//hp9n9m0vJ0HqX9Wj53v9TaxYdp1/Y4LcHoR17Q="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -78,10 +72,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshAnimationKey.html",
-          "hash": "HE4YFlixvfGaDQKUnfjLZOiSaZ0lZixist3bPPmwsH8="
+          "hash": "/kluNqDscipEVaDFQ9lHkN4RfNyLAlgW58+Mzn5JrpI="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -90,10 +83,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html",
-          "hash": "2xWZyVhGbgxIgP0Yml5PUqkrDvcdNdidLLU77ZgQQ+o="
+          "hash": "IAeKOdHfjSQwFhqqGf9HiRaqhaTPVFwyhOdK1o+gGLg="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -102,10 +94,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFrame.html",
-          "hash": "z3/G4XxDn7PD55Od5U0/qIr/HdLAAQ2/vjok9PC/JbQ="
+          "hash": "i4w8lUfmeDVXFgBO5dICPc2lJHCDLYkgIA4ZhwNQoMk="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -114,10 +105,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFrameTransformType.html",
-          "hash": "kwa5PaVvbiFUsUFvD5FrqYjE98On49G+N8FAFw09RxI="
+          "hash": "+YpsM2K6Qmj9nj/cf9JoxakGJYaFAZmV7Bnq6szm/Fk="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -126,10 +116,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshIndexBuffer.html",
-          "hash": "6BWOuPtAAe1/q8sEIKd2S2k3D96/u0uenFx5d6OCx8w="
+          "hash": "9Wv8pcTvRYvf5AP+eOJ4E/GpkqytGPB4sNhsMFrdGgc="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -138,10 +127,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshIndexType.html",
-          "hash": "6i6BdVRdYjhZmz/zOnssYuO0sHifBU2HYfXesE1fhkY="
+          "hash": "AsE2ctqBUbjtfNpIaO7vzSz57uOY4yPl9vFm+NDhIEA="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -150,10 +138,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshMaterial.html",
-          "hash": "0aD5spjOYVHLPMcdGAk4wCvEiWOKpWEW2HHKu/3nHr8="
+          "hash": "y8FfCFi6lMJe8WhXRn4krSwSUqrqH4i2sWQ7lPv/8os="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -162,10 +149,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshMesh.html",
-          "hash": "14F2Z5lWd5Ke+9B5/KedgGoT6ZI7j5cHCR2CnoEgK1s="
+          "hash": "tfMlHfqewT4+RaACsMzFZHA/lYqv4p5PPbbqCOuE39g="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -174,10 +160,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshPrimitiveType.html",
-          "hash": "AqPkc82UYIzwO0doRgsm+WlOEmKB9KFSfLq1cptxC2c="
+          "hash": "JE5Zx7f0lpXSF0TPWwQROXcdFXAqH1+AVs4SJTDQpko="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -186,10 +171,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimData.html",
-          "hash": "MGgW6HRfA4ZU7UEyJgW1YOokBS8GW02wN19PHcsG3qU="
+          "hash": "vUwHf8Dkrr7t/rjUVKgOl6tk9K1USnKdU/UtaU1yNAU="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -198,10 +182,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFile.html",
-          "hash": "FvHbezn6L7ksOY8b4cJiUdP66AHpGk9U1T8lGAERJzM="
+          "hash": "+2YszJhIgdJjm5m++C2AXYXZYZAJfHO9I0ZSVLYk3Bg="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -210,10 +193,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFrameData.html",
-          "hash": "9FU/VznQxKS6CS99sbpBf0AffzDw2Sp0r5DfKsrmNuk="
+          "hash": "Bk2ffZHqZoIEBNRrjw6DiYV+4Mx+LeYzfRvZUJep510="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -222,10 +204,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimHeader.html",
-          "hash": "daGW4UzUtVYG8DSNu17tVtd2tIG/tyd5kwMBVVCV6j4="
+          "hash": "AWZykP3J8/+SuWHbRck4gW1AEl7AOLYUrK8NGvY9UnA="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -234,10 +215,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFile.html",
-          "hash": "/iZJUDUVDmJAUq++FtTBPWOSkO09773KBf6sBn+T6xY="
+          "hash": "as0L3Y6rdsICCPY2Q2m8BmyVq7TRDfS5np7tPh2iQ7A="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -246,10 +226,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFrame.html",
-          "hash": "eYHRfO25a9KfAYte7MbqtSGFtCQfuxuDihhuyWwe1yI="
+          "hash": "FZszLbuHCIWqJYC81ZhKs+6aHvi4RJhIrXpCLAcYHIk="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -258,10 +237,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawHeader.html",
-          "hash": "0D7AHygi4SKaiUugnWcXpKyMUv98FZ2wD9bn1D4DdBo="
+          "hash": "uwP3JPZUpU+HByZsVtn3E5UpiEkv5TQfASEPCARDRQo="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -270,10 +248,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawIndexBufferHeader.html",
-          "hash": "naT4ZEqmYewOKfkbcGL1iyDjcj71N7dPNzfFWVkDxkc="
+          "hash": "pHT5UXsYOYh2bc6/mQaJCIDZkPhYLAEjprjCU9iEQI4="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -282,10 +259,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawMaterial.html",
-          "hash": "9sWS7KBnRvwqTL9k/0wE6LTHKFBUDk/DttucRH+Rssw="
+          "hash": "wcdd0DAERAANAlxXxO2N2KBmrzMjpipqn5CunOd8AvQ="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -294,10 +270,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawMesh.html",
-          "hash": "0aO4fLaJGuRS61D9sYvldsoWig3Mxdvwpdr7+uzfDq4="
+          "hash": "8VWgqRANTn/XxruXFnLWT/G1fnC6FIBe+jNTWhwbZKE="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -306,10 +281,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawSubset.html",
-          "hash": "wd3IviYQJmLRtVL6bbnNayI3PA+xPiz2oZeZOWUeyzU="
+          "hash": "WUxpQ9CvFDTgzjWLl3Qkg82yid32FRooBmjLeGShr+U="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -318,10 +292,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawVertexBufferHeader.html",
-          "hash": "/tZaylNMS0Y7q8zwSafKVn8oXZLNRcp5xbPNMhKoVYo="
+          "hash": "iAZwmDbKnHpU2+dfduQ6kKOELR+FhQdtwpOQKU9El0Q="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -330,10 +303,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshSubset.html",
-          "hash": "bmJWQWTMI1PK4+D3VhK2UL+L1DvEuuxOcsGlk+xOPpE="
+          "hash": "1fjoM0Dam4FXuQ2VKly8i62YCRoHOMLXi5AbyhKs8pQ="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -342,10 +314,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.SdkMeshVertexBuffer.html",
-          "hash": "dUTnPT6zT3g8r2st51AzDzkKrtO61hWWY8PXFP/Cfuk="
+          "hash": "AtSll2k5kz2UKb3GJAiBri9qtgw2onnHSiFbQrndcik="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -354,10 +325,9 @@
       "output": {
         ".html": {
           "relative_path": "api/JeremyAnsel.DirectX.SdkMesh.html",
-          "hash": "b9DIlby7gIsNm+cntRhVwD0BVYn2XRuZjRUSPTnt1Aw="
+          "hash": "PWZnS2JLWtRL81ycX2JfWL/Rpkx/kQyG6S4qgVvSkuw="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -366,10 +336,9 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "KrAA4VoxZmL8+lyips7GRXEioREl5WRUq2sbhFmdy0M="
+          "hash": "MXmJoukWiYGn4SPX9h/wmuW1pW6QMhMZWI8YHjEfCng="
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -378,54 +347,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "XRPa1pLAvVgPMYT/gIAEjbLMR/xVV7iliongOY8Aw/c="
+          "hash": "RdK9q3rG83O5NeQyQ63MZ23LChbiM5vWrD8Pup3HRT4="
         }
       },
-      "is_incremental": false,
       "version": ""
-    }
-  ],
-  "incremental_info": [
-    {
-      "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
-        "incrementalPhase": "build",
-        "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "NoAvailableBuildCache"
-      },
-      "processors": {
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 2,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 29,
-          "skipped_file_count": 0
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        }
-      }
-    },
-    {
-      "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
-        "incrementalPhase": "postProcessing",
-        "total_file_count": 0,
-        "skipped_file_count": 0
-      },
-      "processors": {}
     }
   ],
   "version_info": {},
