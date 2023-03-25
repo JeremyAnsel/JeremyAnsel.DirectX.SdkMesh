@@ -3,12 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeremyAnsel.DirectX.SdkMesh", "JeremyAnsel.DirectX.SdkMesh\JeremyAnsel.DirectX.SdkMesh.csproj", "{EBB68C77-652C-4C5C-A360-AF06B3491957}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JeremyAnsel.DirectX.SdkMesh", "JeremyAnsel.DirectX.SdkMesh\JeremyAnsel.DirectX.SdkMesh.csproj", "{EBB68C77-652C-4C5C-A360-AF06B3491957}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Documentation", "Documentation\Documentation.csproj", "{8BA40665-50EE-42F1-9450-566D0E88C9CD}"
-	ProjectSection(ProjectDependencies) = postProject
-		{EBB68C77-652C-4C5C-A360-AF06B3491957} = {EBB68C77-652C-4C5C-A360-AF06B3491957}
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Documentation", "Documentation\Documentation.csproj", "{8BA40665-50EE-42F1-9450-566D0E88C9CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
