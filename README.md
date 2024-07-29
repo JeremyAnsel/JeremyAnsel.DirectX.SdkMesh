@@ -13,3 +13,13 @@ Documentation   | http://jeremyansel.github.io/JeremyAnsel.DirectX.SdkMesh
 Source code     | https://github.com/JeremyAnsel/JeremyAnsel.DirectX.SdkMesh
 Nuget           | https://www.nuget.org/packages/JeremyAnsel.DirectX.SdkMesh
 Build           | https://ci.appveyor.com/project/JeremyAnsel/jeremyansel-directx-sdkmesh/branch/master
+
+# Usage
+
+```csharp
+SdkMeshFile file = SdkMeshFile.FromFile(device, deviceContext, fileName);
+...
+file.Render(diffuseSlot, normalSlot, specularSlot);
+...
+file.Release();
+```
