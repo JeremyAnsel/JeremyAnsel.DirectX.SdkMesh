@@ -151,12 +151,6 @@ references:
   commentId: F:JeremyAnsel.DirectX.SdkMesh.D3DDeclType.UDec3
   fullName: JeremyAnsel.DirectX.SdkMesh.D3DDeclType.UDec3
   nameWithType: D3DDeclType.UDec3
-- uid: JeremyAnsel.DirectX.SdkMesh.D3DDeclType.Unused
-  name: Unused
-  href: api/JeremyAnsel.DirectX.SdkMesh.D3DDeclType.html#JeremyAnsel_DirectX_SdkMesh_D3DDeclType_Unused
-  commentId: F:JeremyAnsel.DirectX.SdkMesh.D3DDeclType.Unused
-  fullName: JeremyAnsel.DirectX.SdkMesh.D3DDeclType.Unused
-  nameWithType: D3DDeclType.Unused
 - uid: JeremyAnsel.DirectX.SdkMesh.D3DDeclType.UShort2N
   name: UShort2N
   href: api/JeremyAnsel.DirectX.SdkMesh.D3DDeclType.html#JeremyAnsel_DirectX_SdkMesh_D3DDeclType_UShort2N
@@ -169,6 +163,12 @@ references:
   commentId: F:JeremyAnsel.DirectX.SdkMesh.D3DDeclType.UShort4N
   fullName: JeremyAnsel.DirectX.SdkMesh.D3DDeclType.UShort4N
   nameWithType: D3DDeclType.UShort4N
+- uid: JeremyAnsel.DirectX.SdkMesh.D3DDeclType.Unused
+  name: Unused
+  href: api/JeremyAnsel.DirectX.SdkMesh.D3DDeclType.html#JeremyAnsel_DirectX_SdkMesh_D3DDeclType_Unused
+  commentId: F:JeremyAnsel.DirectX.SdkMesh.D3DDeclType.Unused
+  fullName: JeremyAnsel.DirectX.SdkMesh.D3DDeclType.Unused
+  nameWithType: D3DDeclType.Unused
 - uid: JeremyAnsel.DirectX.SdkMesh.D3DDeclUsage
   name: D3DDeclUsage
   href: api/JeremyAnsel.DirectX.SdkMesh.D3DDeclUsage.html
@@ -439,19 +439,6 @@ references:
   isSpec: "True"
   fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.AnimationFPS
   nameWithType: SdkMeshFile.AnimationFPS
-- uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.AnimationFrames
-  name: AnimationFrames
-  href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshFile_AnimationFrames
-  commentId: P:JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.AnimationFrames
-  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.AnimationFrames
-  nameWithType: SdkMeshFile.AnimationFrames
-- uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.AnimationFrames*
-  name: AnimationFrames
-  href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshFile_AnimationFrames_
-  commentId: Overload:JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.AnimationFrames
-  isSpec: "True"
-  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.AnimationFrames
-  nameWithType: SdkMeshFile.AnimationFrames
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.AnimationFrameTransformType
   name: AnimationFrameTransformType
   href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshFile_AnimationFrameTransformType
@@ -465,6 +452,19 @@ references:
   isSpec: "True"
   fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.AnimationFrameTransformType
   nameWithType: SdkMeshFile.AnimationFrameTransformType
+- uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.AnimationFrames
+  name: AnimationFrames
+  href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshFile_AnimationFrames
+  commentId: P:JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.AnimationFrames
+  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.AnimationFrames
+  nameWithType: SdkMeshFile.AnimationFrames
+- uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.AnimationFrames*
+  name: AnimationFrames
+  href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshFile_AnimationFrames_
+  commentId: Overload:JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.AnimationFrames
+  isSpec: "True"
+  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.AnimationFrames
+  nameWithType: SdkMeshFile.AnimationFrames
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.AnimationKeysCount
   name: AnimationKeysCount
   href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshFile_AnimationKeysCount
