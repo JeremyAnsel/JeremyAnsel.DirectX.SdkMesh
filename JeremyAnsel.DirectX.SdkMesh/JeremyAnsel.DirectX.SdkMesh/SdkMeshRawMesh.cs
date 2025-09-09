@@ -13,7 +13,7 @@ namespace JeremyAnsel.DirectX.SdkMesh
 
         private const int MaxVertexStreams = 16;
 
-        public string Name { get; private set; }
+        public string? Name { get; private set; }
 
         public byte NumVertexBuffers { get; private set; }
 

@@ -36,16 +36,16 @@ namespace JeremyAnsel.DirectX.SdkMesh
             }
         }
 
-        public string Name { get; private set; }
+        public string? Name { get; private set; }
 
         public XMFloat3 BoundingBoxCenter { get; private set; }
 
         public XMFloat3 BoundingBoxExtents { get; private set; }
 
         [SuppressMessage("Performance", "CA1819:Les propriétés ne doivent pas retourner de tableaux", Justification = "Reviewed.")]
-        public SdkMeshVertexBuffer[] VertexBuffers { get; private set; }
+        public SdkMeshVertexBuffer?[]? VertexBuffers { get; private set; }
 
-        public SdkMeshIndexBuffer IndexBuffer { get; private set; }
+        public SdkMeshIndexBuffer? IndexBuffer { get; private set; }
 
         public IList<SdkMeshSubset> Subsets { get; } = new List<SdkMeshSubset>();
 

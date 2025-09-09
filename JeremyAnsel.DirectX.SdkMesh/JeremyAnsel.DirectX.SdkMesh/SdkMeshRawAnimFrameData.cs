@@ -10,7 +10,7 @@ namespace JeremyAnsel.DirectX.SdkMesh
     {
         private const int MaxFrameName = 100;
 
-        public string FrameName { get; private set; }
+        public string? FrameName { get; private set; }
 
         public long DataOffset { get; private set; }
 

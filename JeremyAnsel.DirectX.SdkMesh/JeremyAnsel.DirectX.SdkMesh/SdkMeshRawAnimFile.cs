@@ -9,19 +9,24 @@ namespace JeremyAnsel.DirectX.SdkMesh
     {
         private const int FileVersion = 101;
 
-        public SdkMeshRawAnimHeader Header { get; private set; }
+        public SdkMeshRawAnimHeader? Header { get; private set; }
 
         public IList<SdkMeshRawAnimFrameData> AnimationFrames { get; } = new List<SdkMeshRawAnimFrameData>();
 
-        public static SdkMeshRawAnimFile FromFile(string fileName)
+        public static SdkMeshRawAnimFile FromFile(string? fileName)
         {
+            if (string.IsNullOrEmpty(fileName))
+            {
+                throw new ArgumentNullException(nameof(fileName));
+            }
+
             using (FileStream stream = File.Open(fileName, FileMode.Open, FileAccess.Read, FileShare.Read))
             {
                 return FromStream(stream);
             }
         }
 
-        public static SdkMeshRawAnimFile FromStream(Stream stream)
+        public static SdkMeshRawAnimFile FromStream(Stream? stream)
         {
             if (stream == null)
             {

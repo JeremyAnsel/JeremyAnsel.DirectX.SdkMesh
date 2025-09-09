@@ -17,7 +17,7 @@ namespace JeremyAnsel.DirectX.SdkMesh
             }
         }
 
-        public string FrameName { get; private set; }
+        public string? FrameName { get; private set; }
 
         public IList<SdkMeshAnimationKey> AnimationKeys { get; } = new List<SdkMeshAnimationKey>();
     }

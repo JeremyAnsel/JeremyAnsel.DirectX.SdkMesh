@@ -20,38 +20,38 @@ namespace JeremyAnsel.DirectX.SdkMesh
             if (!string.IsNullOrEmpty(rawMaterial.DiffuseTexture))
             {
                 this.DiffuseTextureName = Path.GetFileName(rawMaterial.DiffuseTexture);
-                CreateTexture(device, deviceContext, Path.Combine(directory, Path.GetFileName(rawMaterial.DiffuseTexture)), out D3D11ShaderResourceView textureView);
+                CreateTexture(device, deviceContext, Path.Combine(directory, Path.GetFileName(rawMaterial.DiffuseTexture)), out D3D11ShaderResourceView? textureView);
                 this.DiffuseTextureView = textureView;
             }
 
             if (!string.IsNullOrEmpty(rawMaterial.NormalTexture))
             {
                 this.NormalTextureName = Path.GetFileName(rawMaterial.NormalTexture);
-                CreateTexture(device, deviceContext, Path.Combine(directory, Path.GetFileName(rawMaterial.NormalTexture)), out D3D11ShaderResourceView textureView);
+                CreateTexture(device, deviceContext, Path.Combine(directory, Path.GetFileName(rawMaterial.NormalTexture)), out D3D11ShaderResourceView? textureView);
                 this.NormalTextureView = textureView;
             }
 
             if (!string.IsNullOrEmpty(rawMaterial.SpecularTexture))
             {
                 this.SpecularTextureName = Path.GetFileName(rawMaterial.SpecularTexture);
-                CreateTexture(device, deviceContext, Path.Combine(directory, Path.GetFileName(rawMaterial.SpecularTexture)), out D3D11ShaderResourceView textureView);
+                CreateTexture(device, deviceContext, Path.Combine(directory, Path.GetFileName(rawMaterial.SpecularTexture)), out D3D11ShaderResourceView? textureView);
                 this.SpecularTextureView = textureView;
             }
         }
 
-        public string Name { get; private set; }
+        public string? Name { get; private set; }
 
-        public string DiffuseTextureName { get; private set; }
+        public string? DiffuseTextureName { get; private set; }
 
-        public string NormalTextureName { get; private set; }
+        public string? NormalTextureName { get; private set; }
 
-        public string SpecularTextureName { get; private set; }
+        public string? SpecularTextureName { get; private set; }
 
-        public D3D11ShaderResourceView DiffuseTextureView { get; private set; }
+        public D3D11ShaderResourceView? DiffuseTextureView { get; private set; }
 
-        public D3D11ShaderResourceView NormalTextureView { get; private set; }
+        public D3D11ShaderResourceView? NormalTextureView { get; private set; }
 
-        public D3D11ShaderResourceView SpecularTextureView { get; private set; }
+        public D3D11ShaderResourceView? SpecularTextureView { get; private set; }
 
         public void Release()
         {
@@ -65,7 +65,7 @@ namespace JeremyAnsel.DirectX.SdkMesh
             this.SpecularTextureView = null;
         }
 
-        private static void CreateTexture(D3D11Device device, D3D11DeviceContext deviceContext, string fileName, out D3D11ShaderResourceView textureView)
+        private static void CreateTexture(D3D11Device device, D3D11DeviceContext deviceContext, string fileName, out D3D11ShaderResourceView? textureView)
         {
             if (!File.Exists(fileName))
             {

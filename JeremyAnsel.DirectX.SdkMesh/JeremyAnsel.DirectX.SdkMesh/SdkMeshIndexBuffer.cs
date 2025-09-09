@@ -43,11 +43,11 @@ namespace JeremyAnsel.DirectX.SdkMesh
 
         public DxgiFormat IndexFormat { get; private set; }
 
-        public D3D11Buffer Buffer { get; private set; }
+        public D3D11Buffer? Buffer { get; private set; }
 
         public void Release()
         {
-            this.Buffer.Release();
+            this.Buffer?.Release();
             this.Buffer = null;
         }
     }

@@ -10,13 +10,13 @@ namespace JeremyAnsel.DirectX.SdkMesh
 {
     public sealed class SdkMeshFile
     {
-        private D3D11Device _d3dDevice;
+        private D3D11Device? _d3dDevice;
 
-        private D3D11DeviceContext _d3dDeviceContext;
+        private D3D11DeviceContext? _d3dDeviceContext;
 
-        public string FilePath { get; private set; }
+        public string? FilePath { get; private set; }
 
-        public string FileDirectory { get; private set; }
+        public string? FileDirectory { get; private set; }
 
         public IList<SdkMeshMaterial> Materials { get; } = new List<SdkMeshMaterial>();
 
@@ -32,7 +32,7 @@ namespace JeremyAnsel.DirectX.SdkMesh
 
         public IList<SdkMeshAnimationFrame> AnimationFrames { get; } = new List<SdkMeshAnimationFrame>();
 
-        public static SdkMeshFile FromFile(D3D11Device device, D3D11DeviceContext deviceContext, string fileName)
+        public static SdkMeshFile FromFile(D3D11Device? device, D3D11DeviceContext? deviceContext, string? fileName)
         {
             if (device == null)
             {
@@ -53,8 +53,8 @@ namespace JeremyAnsel.DirectX.SdkMesh
             {
                 _d3dDevice = device,
                 _d3dDeviceContext = deviceContext,
-                FilePath = fileName,
-                FileDirectory = Path.GetDirectoryName(fileName)
+                FilePath = fileName!,
+                FileDirectory = Path.GetDirectoryName(fileName)!
             };
 
             SdkMeshRawFile rawFile = SdkMeshRawFile.FromFile(file.FilePath);
@@ -82,9 +82,12 @@ namespace JeremyAnsel.DirectX.SdkMesh
             {
                 SdkMeshRawAnimFile rawAnimFile = SdkMeshRawAnimFile.FromFile(animFilePath);
 
-                file.AnimationFrameTransformType = rawAnimFile.Header.FrameTransformType;
-                file.AnimationKeysCount = rawAnimFile.Header.NumAnimationKeys;
-                file.AnimationFPS = rawAnimFile.Header.AnimationFPS;
+                if (rawAnimFile.Header is not null)
+                {
+                    file.AnimationFrameTransformType = rawAnimFile.Header.FrameTransformType;
+                    file.AnimationKeysCount = rawAnimFile.Header.NumAnimationKeys;
+                    file.AnimationFPS = rawAnimFile.Header.AnimationFPS;
+                }
 
                 foreach (SdkMeshRawAnimFrameData rawFrame in rawAnimFile.AnimationFrames)
                 {
@@ -94,7 +97,7 @@ namespace JeremyAnsel.DirectX.SdkMesh
 
                 for (int index = 0; index < file.AnimationFrames.Count; index++)
                 {
-                    SdkMeshFrame frame = file.FindFrame(file.AnimationFrames[index].FrameName);
+                    SdkMeshFrame? frame = file.FindFrame(file.AnimationFrames[index].FrameName);
 
                     if (frame != null)
                     {
@@ -123,7 +126,7 @@ namespace JeremyAnsel.DirectX.SdkMesh
             this.Meshes.Clear();
         }
 
-        public SdkMeshFrame FindFrame(string name)
+        public SdkMeshFrame? FindFrame(string? name)
         {
             if (string.IsNullOrEmpty(name))
             {
@@ -229,6 +232,11 @@ namespace JeremyAnsel.DirectX.SdkMesh
 
         private void RenderMesh(int meshIndex, int diffuseSlot, int normalSlot, int specularSlot)
         {
+            if (this._d3dDeviceContext is null)
+            {
+                return;
+            }
+
             if (meshIndex < 0 || meshIndex >= this.Meshes.Count)
             {
                 return;
@@ -236,28 +244,37 @@ namespace JeremyAnsel.DirectX.SdkMesh
 
             SdkMeshMesh mesh = this.Meshes[meshIndex];
 
-            if (mesh.VertexBuffers.Length > D3D11Constants.InputAssemblerVertexInputResourceSlotCount)
+            if (mesh.VertexBuffers is null || mesh.VertexBuffers.Length > D3D11Constants.InputAssemblerVertexInputResourceSlotCount)
             {
                 return;
             }
 
-            D3D11Buffer[] vb = new D3D11Buffer[mesh.VertexBuffers.Length];
+            D3D11Buffer?[] vb = new D3D11Buffer[mesh.VertexBuffers.Length];
             uint[] strides = new uint[mesh.VertexBuffers.Length];
             uint[] offsets = new uint[mesh.VertexBuffers.Length];
 
             for (int i = 0; i < mesh.VertexBuffers.Length; i++)
             {
-                vb[i] = mesh.VertexBuffers[i].Buffer;
-                strides[i] = mesh.VertexBuffers[i].StrideBytes;
+                vb[i] = mesh.VertexBuffers[i]?.Buffer;
+                strides[i] = mesh.VertexBuffers[i]?.StrideBytes ?? 0;
                 offsets[i] = 0;
             }
 
-            D3D11Buffer ib = mesh.IndexBuffer.Buffer;
+            if (mesh.IndexBuffer is null)
+            {
+                return;
+            }
+
+            D3D11Buffer? ib = mesh.IndexBuffer.Buffer;
             DxgiFormat ibFormat = mesh.IndexBuffer.IndexFormat;
+
+            if (ib is null)
+            {
+                return;
+            }
 
             this._d3dDeviceContext.InputAssemblerSetVertexBuffers(0, vb, strides, offsets);
             this._d3dDeviceContext.InputAssemblerSetIndexBuffer(ib, ibFormat, 0);
-
 
             foreach (SdkMeshSubset subset in mesh.Subsets)
             {

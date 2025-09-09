@@ -18,7 +18,7 @@ namespace JeremyAnsel.DirectX.SdkMesh
             this.VertexCount = (int)rawSubset.VertexCount;
         }
 
-        public string Name { get; private set; }
+        public string? Name { get; private set; }
 
         public int MaterialIndex { get; private set; }
 

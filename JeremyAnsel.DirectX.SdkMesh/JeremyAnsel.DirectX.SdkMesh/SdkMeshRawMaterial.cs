@@ -15,15 +15,15 @@ namespace JeremyAnsel.DirectX.SdkMesh
 
         private const int MaxTextureName = 260;
 
-        public string Name { get; private set; }
+        public string? Name { get; private set; }
 
-        public string MaterialInstancePath { get; private set; }
+        public string? MaterialInstancePath { get; private set; }
 
-        public string DiffuseTexture { get; private set; }
+        public string? DiffuseTexture { get; private set; }
 
-        public string NormalTexture { get; private set; }
+        public string? NormalTexture { get; private set; }
 
-        public string SpecularTexture { get; private set; }
+        public string? SpecularTexture { get; private set; }
 
         public XMFloat4 Diffuse { get; private set; }
 

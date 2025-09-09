@@ -9,7 +9,7 @@ namespace JeremyAnsel.DirectX.SdkMesh
     {
         private const int FileVersion = 101;
 
-        public SdkMeshRawHeader Header { get; private set; }
+        public SdkMeshRawHeader? Header { get; private set; }
 
         public IList<SdkMeshRawVertexBufferHeader> VertexBufferHeaders { get; } = new List<SdkMeshRawVertexBufferHeader>();
 
@@ -27,15 +27,20 @@ namespace JeremyAnsel.DirectX.SdkMesh
 
         public IList<SdkMeshRawMaterial> Materials { get; } = new List<SdkMeshRawMaterial>();
 
-        public static SdkMeshRawFile FromFile(string fileName)
+        public static SdkMeshRawFile FromFile(string? fileName)
         {
+            if (string.IsNullOrEmpty(fileName))
+            {
+                throw new ArgumentNullException(nameof(fileName));
+            }
+
             using (FileStream stream = File.Open(fileName, FileMode.Open, FileAccess.Read, FileShare.Read))
             {
                 return FromStream(stream);
             }
         }
 
-        public static SdkMeshRawFile FromStream(Stream stream)
+        public static SdkMeshRawFile FromStream(Stream? stream)
         {
             if (stream == null)
             {

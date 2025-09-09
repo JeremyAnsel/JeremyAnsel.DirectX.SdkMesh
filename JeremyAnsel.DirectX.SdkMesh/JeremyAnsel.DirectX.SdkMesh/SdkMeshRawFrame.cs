@@ -11,7 +11,7 @@ namespace JeremyAnsel.DirectX.SdkMesh
     {
         private const int MaxFrameName = 100;
 
-        public string Name { get; private set; }
+        public string? Name { get; private set; }
 
         public int MeshIndex { get; private set; }
 

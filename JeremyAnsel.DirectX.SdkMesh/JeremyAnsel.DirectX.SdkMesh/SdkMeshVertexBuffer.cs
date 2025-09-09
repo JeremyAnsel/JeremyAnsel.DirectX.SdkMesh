@@ -34,11 +34,11 @@ namespace JeremyAnsel.DirectX.SdkMesh
         [SuppressMessage("Performance", "CA1819:Les propriétés ne doivent pas retourner de tableaux", Justification = "Reviewed.")]
         public D3DVertexElement[] Decl { get; private set; }
 
-        public D3D11Buffer Buffer { get; private set; }
+        public D3D11Buffer? Buffer { get; private set; }
 
         public void Release()
         {
-            this.Buffer.Release();
+            this.Buffer?.Release();
             this.Buffer = null;
         }
     }
