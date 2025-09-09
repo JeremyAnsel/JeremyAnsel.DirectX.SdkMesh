@@ -505,13 +505,13 @@ references:
   fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FilePath
   nameWithType: SdkMeshFile.FilePath
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FindFrame(System.String)
-  name: FindFrame(string)
+  name: FindFrame(string?)
   href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshFile_FindFrame_System_String_
   commentId: M:JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FindFrame(System.String)
   name.vb: FindFrame(String)
-  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FindFrame(string)
+  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FindFrame(string?)
   fullName.vb: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FindFrame(String)
-  nameWithType: SdkMeshFile.FindFrame(string)
+  nameWithType: SdkMeshFile.FindFrame(string?)
   nameWithType.vb: SdkMeshFile.FindFrame(String)
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FindFrame*
   name: FindFrame
@@ -534,13 +534,13 @@ references:
   fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.Frames
   nameWithType: SdkMeshFile.Frames
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FromFile(JeremyAnsel.DirectX.D3D11.D3D11Device,JeremyAnsel.DirectX.D3D11.D3D11DeviceContext,System.String)
-  name: FromFile(D3D11Device, D3D11DeviceContext, string)
+  name: FromFile(D3D11Device?, D3D11DeviceContext?, string?)
   href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshFile_FromFile_JeremyAnsel_DirectX_D3D11_D3D11Device_JeremyAnsel_DirectX_D3D11_D3D11DeviceContext_System_String_
   commentId: M:JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FromFile(JeremyAnsel.DirectX.D3D11.D3D11Device,JeremyAnsel.DirectX.D3D11.D3D11DeviceContext,System.String)
   name.vb: FromFile(D3D11Device, D3D11DeviceContext, String)
-  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FromFile(JeremyAnsel.DirectX.D3D11.D3D11Device, JeremyAnsel.DirectX.D3D11.D3D11DeviceContext, string)
+  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FromFile(JeremyAnsel.DirectX.D3D11.D3D11Device?, JeremyAnsel.DirectX.D3D11.D3D11DeviceContext?, string?)
   fullName.vb: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FromFile(JeremyAnsel.DirectX.D3D11.D3D11Device, JeremyAnsel.DirectX.D3D11.D3D11DeviceContext, String)
-  nameWithType: SdkMeshFile.FromFile(D3D11Device, D3D11DeviceContext, string)
+  nameWithType: SdkMeshFile.FromFile(D3D11Device?, D3D11DeviceContext?, string?)
   nameWithType.vb: SdkMeshFile.FromFile(D3D11Device, D3D11DeviceContext, String)
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshFile.FromFile*
   name: FromFile
@@ -1313,13 +1313,13 @@ references:
   fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFile.AnimationFrames
   nameWithType: SdkMeshRawAnimFile.AnimationFrames
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFile.FromFile(System.String)
-  name: FromFile(string)
+  name: FromFile(string?)
   href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshRawAnimFile_FromFile_System_String_
   commentId: M:JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFile.FromFile(System.String)
   name.vb: FromFile(String)
-  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFile.FromFile(string)
+  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFile.FromFile(string?)
   fullName.vb: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFile.FromFile(String)
-  nameWithType: SdkMeshRawAnimFile.FromFile(string)
+  nameWithType: SdkMeshRawAnimFile.FromFile(string?)
   nameWithType.vb: SdkMeshRawAnimFile.FromFile(String)
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFile.FromFile*
   name: FromFile
@@ -1329,11 +1329,14 @@ references:
   fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFile.FromFile
   nameWithType: SdkMeshRawAnimFile.FromFile
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFile.FromStream(System.IO.Stream)
-  name: FromStream(Stream)
+  name: FromStream(Stream?)
   href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshRawAnimFile_FromStream_System_IO_Stream_
   commentId: M:JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFile.FromStream(System.IO.Stream)
-  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFile.FromStream(System.IO.Stream)
-  nameWithType: SdkMeshRawAnimFile.FromStream(Stream)
+  name.vb: FromStream(Stream)
+  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFile.FromStream(System.IO.Stream?)
+  fullName.vb: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFile.FromStream(System.IO.Stream)
+  nameWithType: SdkMeshRawAnimFile.FromStream(Stream?)
+  nameWithType.vb: SdkMeshRawAnimFile.FromStream(Stream)
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFile.FromStream*
   name: FromStream
   href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawAnimFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshRawAnimFile_FromStream_
@@ -1529,13 +1532,13 @@ references:
   fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFile.Frames
   nameWithType: SdkMeshRawFile.Frames
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFile.FromFile(System.String)
-  name: FromFile(string)
+  name: FromFile(string?)
   href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshRawFile_FromFile_System_String_
   commentId: M:JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFile.FromFile(System.String)
   name.vb: FromFile(String)
-  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFile.FromFile(string)
+  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFile.FromFile(string?)
   fullName.vb: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFile.FromFile(String)
-  nameWithType: SdkMeshRawFile.FromFile(string)
+  nameWithType: SdkMeshRawFile.FromFile(string?)
   nameWithType.vb: SdkMeshRawFile.FromFile(String)
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFile.FromFile*
   name: FromFile
@@ -1545,11 +1548,14 @@ references:
   fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFile.FromFile
   nameWithType: SdkMeshRawFile.FromFile
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFile.FromStream(System.IO.Stream)
-  name: FromStream(Stream)
+  name: FromStream(Stream?)
   href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshRawFile_FromStream_System_IO_Stream_
   commentId: M:JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFile.FromStream(System.IO.Stream)
-  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFile.FromStream(System.IO.Stream)
-  nameWithType: SdkMeshRawFile.FromStream(Stream)
+  name.vb: FromStream(Stream)
+  fullName: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFile.FromStream(System.IO.Stream?)
+  fullName.vb: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFile.FromStream(System.IO.Stream)
+  nameWithType: SdkMeshRawFile.FromStream(Stream?)
+  nameWithType.vb: SdkMeshRawFile.FromStream(Stream)
 - uid: JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFile.FromStream*
   name: FromStream
   href: api/JeremyAnsel.DirectX.SdkMesh.SdkMeshRawFile.html#JeremyAnsel_DirectX_SdkMesh_SdkMeshRawFile_FromStream_
