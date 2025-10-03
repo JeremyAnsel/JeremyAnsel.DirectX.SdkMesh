@@ -126,7 +126,7 @@ namespace JeremyAnsel.DirectX.SdkMesh
                     }
                 };
 
-                textureView = device.CreateShaderResourceView(texture, textureViewDesc);
+                textureView = device.CreateShaderResourceView(texture, textureViewDesc)!;
             }
         }
     }

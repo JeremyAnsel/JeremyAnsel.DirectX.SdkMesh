@@ -9,7 +9,7 @@ namespace JeremyAnsel.DirectX.SdkMesh
     {
         internal SdkMeshFrame(SdkMeshRawFrame rawFrame)
         {
-            this.Name = rawFrame.Name;
+            this.Name = rawFrame.Name!;
             this.MeshIndex = rawFrame.MeshIndex;
             this.ParentFrameIndex = rawFrame.ParentFrameIndex;
             this.ChildFrameIndex = rawFrame.ChildFrameIndex;
