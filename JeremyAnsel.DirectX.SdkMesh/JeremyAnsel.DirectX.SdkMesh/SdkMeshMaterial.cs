@@ -1,13 +1,9 @@
 ﻿using JeremyAnsel.DirectX.D3D11;
 using JeremyAnsel.DirectX.Dds;
 using JeremyAnsel.DirectX.Dxgi;
+using JeremyAnsel.DirectX.WinCodec;
 using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Drawing.Imaging;
-using System.IO;
 using System.Runtime.InteropServices;
-using System.Text;
 
 namespace JeremyAnsel.DirectX.SdkMesh
 {
@@ -80,6 +76,7 @@ namespace JeremyAnsel.DirectX.SdkMesh
                 DdsDirectX.CreateTexture(fileName, device, deviceContext, out textureView);
             }
             else if (string.Equals(ext, ".jpg", StringComparison.OrdinalIgnoreCase)
+                || string.Equals(ext, ".jpeg", StringComparison.OrdinalIgnoreCase)
                 || string.Equals(ext, ".bmp", StringComparison.OrdinalIgnoreCase)
                 || string.Equals(ext, ".png", StringComparison.OrdinalIgnoreCase)
                 || string.Equals(ext, ".gif", StringComparison.OrdinalIgnoreCase))
@@ -94,40 +91,27 @@ namespace JeremyAnsel.DirectX.SdkMesh
 
         private static void CreateBitmapTexture(D3D11Device device, string fileName, out D3D11ShaderResourceView textureView)
         {
-            int width;
-            int height;
+            uint width;
+            uint height;
             byte[] bytes;
 
-            using (var file = new Bitmap(fileName))
+            using (var factory = WicImagingFactory.Create())
             {
-                var rect = new Rectangle(0, 0, file.Width, file.Height);
-                int length = file.Width * file.Height;
-
-                width = file.Width;
-                height = file.Height;
+                using var decoder = factory.CreateDecoderFromFilename(fileName, WicWin32GenericAccessRights.GenericRead, WicDecodeOptions.WICDecodeMetadataCacheOnDemand);
+                using var frame = decoder.GetFrame(0);
+                frame.GetSize(out width, out height);
+                using var bitmap = WicImagingFactory.ConvertBitmapSource(WicGuids.GUID_WICPixelFormat32bppBGRA, frame)!;
+                uint length = width * height;
                 bytes = new byte[length * 4];
-
-                using (var bitmap = file.Clone(rect, PixelFormat.Format32bppArgb))
-                {
-                    BitmapData data = bitmap.LockBits(rect, ImageLockMode.ReadOnly, bitmap.PixelFormat);
-
-                    try
-                    {
-                        Marshal.Copy(data.Scan0, bytes, 0, length * 4);
-                    }
-                    finally
-                    {
-                        bitmap.UnlockBits(data);
-                    }
-                }
+                bitmap.CopyPixels(null, width * 4, bytes);
             }
 
             D3D11SubResourceData[] textureSubResData = new[]
             {
-                new D3D11SubResourceData(bytes, (uint)width * 4)
+                new D3D11SubResourceData(bytes, width * 4)
             };
 
-            var textureDesc = new D3D11Texture2DDesc(DxgiFormat.B8G8R8A8UNorm, (uint)width, (uint)height, 1, 1);
+            var textureDesc = new D3D11Texture2DDesc(DxgiFormat.B8G8R8A8UNorm, width, height, 1, 1);
 
             using (var texture = device.CreateTexture2D(textureDesc, textureSubResData))
             {
