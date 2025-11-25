@@ -45,10 +45,10 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="JeremyAnsel.DirectX.D3D11" Version="3.0.47" />
-    <PackageReference Include="JeremyAnsel.DirectX.Dds" Version="2.0.17" />
-    <PackageReference Include="JeremyAnsel.DirectX.DXMath" Version="3.0.47" />
-    <PackageReference Include="JeremyAnsel.DirectX.WinCodec" Version="3.0.47" />
+    <PackageReference Include="JeremyAnsel.DirectX.D3D11" Version="3.0.49" />
+    <PackageReference Include="JeremyAnsel.DirectX.Dds" Version="2.0.19" />
+    <PackageReference Include="JeremyAnsel.DirectX.DXMath" Version="3.0.49" />
+    <PackageReference Include="JeremyAnsel.DirectX.WinCodec" Version="3.0.49" />
     <PackageReference Condition="'$(CI)' == 'True'" Include="Microsoft.SourceLink.GitHub" Version="1.1.1">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
