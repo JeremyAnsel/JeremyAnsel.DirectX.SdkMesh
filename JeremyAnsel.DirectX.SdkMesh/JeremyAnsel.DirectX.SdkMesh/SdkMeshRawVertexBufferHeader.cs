@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Text;
-
-namespace JeremyAnsel.DirectX.SdkMesh
+﻿namespace JeremyAnsel.DirectX.SdkMesh
 {
     public sealed class SdkMeshRawVertexBufferHeader
     {

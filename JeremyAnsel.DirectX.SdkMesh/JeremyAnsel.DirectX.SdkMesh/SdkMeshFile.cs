@@ -1,10 +1,6 @@
 ﻿using JeremyAnsel.DirectX.D3D11;
 using JeremyAnsel.DirectX.Dxgi;
 using JeremyAnsel.DirectX.DXMath;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Text;
 
 namespace JeremyAnsel.DirectX.SdkMesh
 {
@@ -284,17 +280,17 @@ namespace JeremyAnsel.DirectX.SdkMesh
 
                 if (diffuseSlot != -1 && material.DiffuseTextureView != null)
                 {
-                    this._d3dDeviceContext.PixelShaderSetShaderResources((uint)diffuseSlot, new[] { material.DiffuseTextureView });
+                    this._d3dDeviceContext.PixelShaderSetShaderResources((uint)diffuseSlot, material.DiffuseTextureView);
                 }
 
                 if (normalSlot != -1 && material.NormalTextureView != null)
                 {
-                    this._d3dDeviceContext.PixelShaderSetShaderResources((uint)normalSlot, new[] { material.NormalTextureView });
+                    this._d3dDeviceContext.PixelShaderSetShaderResources((uint)normalSlot, material.NormalTextureView);
                 }
 
                 if (specularSlot != -1 && material.SpecularTextureView != null)
                 {
-                    this._d3dDeviceContext.PixelShaderSetShaderResources((uint)specularSlot, new[] { material.SpecularTextureView });
+                    this._d3dDeviceContext.PixelShaderSetShaderResources((uint)specularSlot, material.SpecularTextureView);
                 }
 
                 this._d3dDeviceContext.DrawIndexed((uint)subset.IndexCount, (uint)subset.IndexStart, subset.VertexStart);

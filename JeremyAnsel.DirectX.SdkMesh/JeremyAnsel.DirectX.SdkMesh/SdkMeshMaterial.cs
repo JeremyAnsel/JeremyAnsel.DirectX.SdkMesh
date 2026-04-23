@@ -2,8 +2,6 @@
 using JeremyAnsel.DirectX.Dds;
 using JeremyAnsel.DirectX.Dxgi;
 using JeremyAnsel.DirectX.WinCodec;
-using System;
-using System.Runtime.InteropServices;
 
 namespace JeremyAnsel.DirectX.SdkMesh
 {
@@ -100,16 +98,16 @@ namespace JeremyAnsel.DirectX.SdkMesh
                 using var decoder = factory.CreateDecoderFromFilename(fileName, WicWin32GenericAccessRights.GenericRead, WicDecodeOptions.WICDecodeMetadataCacheOnDemand);
                 using var frame = decoder.GetFrame(0);
                 frame.GetSize(out width, out height);
-                using var bitmap = WicImagingFactory.ConvertBitmapSource(WicGuids.GUID_WICPixelFormat32bppBGRA, frame)!;
+                using var bitmap = WicImagingFactory.ConvertBitmapSource(WicGuids.GUID_WICPixelFormat32bppBGRA, frame);
                 uint length = width * height;
                 bytes = new byte[length * 4];
                 bitmap.CopyPixels(null, width * 4, bytes);
             }
 
-            D3D11SubResourceData[] textureSubResData = new[]
-            {
+            D3D11SubResourceData[] textureSubResData =
+            [
                 new D3D11SubResourceData(bytes, width * 4)
-            };
+            ];
 
             var textureDesc = new D3D11Texture2DDesc(DxgiFormat.B8G8R8A8UNorm, width, height, 1, 1);
 

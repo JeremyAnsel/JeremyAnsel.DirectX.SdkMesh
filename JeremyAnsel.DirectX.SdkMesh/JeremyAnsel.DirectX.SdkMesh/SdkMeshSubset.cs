@@ -1,7 +1,4 @@
 ﻿using JeremyAnsel.DirectX.D3D11;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace JeremyAnsel.DirectX.SdkMesh
 {
